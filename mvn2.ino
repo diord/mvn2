@@ -146,11 +146,6 @@ void loop() {
   }
   Serial.print("Mode: ");
   Serial.println(currentMode);
-
   updateLedState();
   Portal.handleClient();
-
-
-  //delay(1000);
-
 }
